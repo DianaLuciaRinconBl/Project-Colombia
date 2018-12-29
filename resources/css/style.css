@@ -1,0 +1,161 @@
+/*----------------
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Berkshire Swash', cursive;
+---------*/
+
+
+/*--------BASIC SETUP---------*/
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #000;
+  font-family:'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+/*--------LOGO--------*/
+.logo {
+  height: 120px;
+  width: 120px;
+}
+.main-header-box{
+  position: relative;
+}
+.incolombia-text-box{
+  color: #fff;
+  opacity: 0.5;
+  font-size: 150px;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 200;
+  position: absolute;
+  top: 260px;
+  left: 190px;
+}
+
+.incolombia-caption {
+  color: #fff;
+  font-family:'Lato', 'Arial', sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+
+/*--------HEADER--------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/main-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+/*--------BUTTONS---------*/
+.main li a {
+  color: #535353;
+  margin-right: 55px;
+}
+
+.main {
+  float: right;
+  padding: 8px 0;
+  margin-top: 30px;
+
+
+}
+.main li{
+  display: inline-block;
+}
+
+.main li a:link,
+.main li a:visited {
+  text-decoration: none!important;
+  font-size: 100%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main li a:hover,
+.main li a:active {
+  border-bottom: 2px solid #264907;
+}
+
+/*--------MAIN INFO---------*/
+
+.history {
+  color: #000;
+  font-family:'Lato', 'Arial', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  padding-bottom: 60px;
+
+}
+
+.history-par {
+  color:#575757;
+  font-family:'Lato', 'Arial', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 160px;
+
+}
+
+
+
+/*--------PICTURES---------*/
+
+
+
+figure {
+  margin: 0;
+  line-height: 0;
+  position: relative;
+}
+
+figcaption {
+  color: #fff;
+  font-size: 80px;
+  font-family:'Lato', sans-serif;
+  font-weight: 60;
+  padding: 1em;
+  line-height: 0;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.cartagena-img {
+  height: auto;
+  width:100%;
+}
+
+.yellow-wall{
+  width: 100%;
+  height: auto;
+}
+
+.toeat{
+  width: 100%;
+  height: auto;
+}
